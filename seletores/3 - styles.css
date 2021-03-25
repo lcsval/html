@@ -1,0 +1,34 @@
+ul li:first-child {
+    font-weight: bold;
+    color: red;
+}
+
+article p:nth-of-type(3) {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+article p:nth-child(3) {
+    color: green;
+}
+
+ul li:nth-child(even) {
+    color: gray;
+}
+
+a:hover {
+    color: red;
+}
+
+input:focus {
+    border-color: red;
+    outline: none;
+}
+
+input:disabled {
+    background-color: green;
+}
+
+input:required {
+    background-color: red;
+}
