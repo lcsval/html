@@ -1,0 +1,17 @@
+p {
+    font-variant: small-caps;
+    font-stretch: 50%;
+
+    letter-spacing: 1em;
+    word-spacing: 4px;
+
+    line-height: 1.6;
+    text-transform: uppercase; /* capitalize | lowercase | none */
+    text-decoration: underline wavy red; /* shorthand */
+    text-align: center; /* left | right | center | justify */
+    text-shadow: 1px 1px 1px red,
+        2px 2px 1px green; /* offset-x | offset-y | blur-radius | color */
+
+    font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+    
+}
